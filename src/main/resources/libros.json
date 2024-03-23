@@ -1,0 +1,23 @@
+[
+    {
+        "editorial": "Penguin Random House",
+        "isbn": "978-1984801258",
+        "autor": "George Orwell",
+        "titulo": "1984",
+        "genero": "Distopía"
+    },
+    {
+        "editorial": "Anagrama",
+        "isbn": "978-8433902250",
+        "autor": "Haruki Murakami",
+        "titulo": "Kafka en la orilla",
+        "genero": "Ficción contemporánea"
+    },
+    {
+        "editorial": "Planeta",
+        "isbn": "978-8408152830",
+        "autor": "J.K. Rowling",
+        "titulo": "Harry Potter y la piedra filosofal",
+        "genero": "Fantasía juvenil"
+    }
+]
