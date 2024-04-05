@@ -5,10 +5,10 @@ Esta API desarrollada con Spring Boot permite administrar libros utilizando el p
 ## Ejecutar el Proyecto:
 Para utilizar esta API, asegúrate de tener instalado Java y Maven. Clona el repositorio y ejecuta la aplicación Spring Boot localmente. La API estará disponible en http://localhost:8080/api/libros.
 
-### Ejemplos de Uso
+### Uso
 Puedes probar la API utilizando herramientas como Postman, y si usas VSC, con Thunder Client.
 
-## Endpoints
+## Ejemplos
 
 ### Obtener todos los libros
 
