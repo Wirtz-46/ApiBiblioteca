@@ -11,33 +11,33 @@ Puedes probar la API utilizando herramientas como Postman, y si usas VSC, con Th
 ## Ejemplos
 
 ### Obtener todos los libros
-
+```
 GET /api/libros
-
+```
 Devuelve una lista de todos los libros en la biblioteca.
 
 ### Obtener un libro por ISBN
-
+```
 GET /api/libros/{isbn}
-
+```
 Devuelve los detalles de un libro específico basado en su ISBN.
 
 ### Crear un nuevo libro
-
+```
 POST /api/libros
-
+```
 Devuelve una lista de todos los libros en la biblioteca.
 
 ### Obtener un libro por ISBN
-
+```
 GET /api/libros/{isbn}
-
+```
 Devuelve los detalles de un libro específico basado en su ISBN.
 
 ### Crear un nuevo libro
-
+```
 POST /api/libros
-
+```
 ### Crea un nuevo libro en la biblioteca.
 
 Body de ejemplo (JSON):
@@ -52,9 +52,9 @@ Body de ejemplo (JSON):
 ```
 
 ### Actualizar un libro existente
-
+```
 PUT /api/libros/{isbn}
-
+```
 Actualiza los detalles de un libro existente basado en su ISBN.
 
 Body de ejemplo (JSON):
@@ -68,7 +68,7 @@ Body de ejemplo (JSON):
 ```
 
 ### Eliminar un libro
-
+```
 DELETE /api/libros/{isbn}
-
+```
 Elimina un libro de la biblioteca según su ISBN.
