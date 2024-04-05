@@ -28,18 +28,6 @@ POST /api/libros
 ```
 Devuelve una lista de todos los libros en la biblioteca.
 
-### Obtener un libro por ISBN
-```
-GET /api/libros/{isbn}
-```
-Devuelve los detalles de un libro específico basado en su ISBN.
-
-### Crear un nuevo libro
-```
-POST /api/libros
-```
-### Crea un nuevo libro en la biblioteca.
-
 Body de ejemplo (JSON):
 ```json
 {
@@ -50,7 +38,6 @@ Body de ejemplo (JSON):
   "genero": "Género Ejemplo"
 }
 ```
-
 ### Actualizar un libro existente
 ```
 PUT /api/libros/{isbn}
