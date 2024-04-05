@@ -31,10 +31,10 @@ Devuelve una lista de todos los libros en la biblioteca.
 Body de ejemplo (JSON):
 ```json
 {
-  "isbn": "978-3-16-148410-0",
-  "titulo": "Ejemplo de Libro",
-  "autor": "Autor Ejemplo",
   "editorial": "Editorial Ejemplo",
+  "isbn": "583-1984801224",
+  "autor": "Autor Ejemplo",
+  "titulo": "Ejemplo de Libro",
   "genero": "Género Ejemplo"
 }
 ```
@@ -47,9 +47,9 @@ Actualiza los detalles de un libro existente basado en su ISBN.
 Body de ejemplo (JSON):
 ```json
 {
-  "titulo": "Nuevo Título",
-  "autor": "Nuevo Autor",
   "editorial": "Nueva Editorial",
+  "autor": "Nuevo Autor",
+  "titulo": "Nuevo Título",
   "genero": "Nuevo Género"
 }
 ```
